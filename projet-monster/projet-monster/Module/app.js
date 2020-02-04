@@ -10,7 +10,7 @@ let bkill = document.querySelector("#k");
 let bnewlife = document.querySelector("#b1");
 
 export function start(){
-    act.init(('flo', 20 , 10, false ));
+    act.init('flo', 20 , 10, false );
 }
 
 

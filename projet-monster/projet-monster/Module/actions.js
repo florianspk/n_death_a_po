@@ -6,7 +6,7 @@
     let awake;
 
     export function get() {
-        return life;
+        return awake;
     }
 
     export function init(n, l, m, a){
