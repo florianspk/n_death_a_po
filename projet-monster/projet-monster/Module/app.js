@@ -10,7 +10,13 @@ let bkill = document.querySelector("#k");
 let bnewlife = document.querySelector("#b1");
 
 export function start(){
-    console.log((act));
+    act.init(('flo', 20 , 10, false ));
 }
 
 
+window.addEventListener("load", () => {
+
+    bshow.addEventListener("click", (event) => {
+        alert(act.get());
+    });
+});

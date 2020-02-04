@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d2d8f9c-8bce-4ccd-9ad3-00ac5dd6495c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module/principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module/principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monsters.html" beforeDir="false" afterPath="$PROJECT_DIR$/monsters.html" afterDir="false" />
-    </list>
+    <list default="true" id="45f3b544-9814-4ebc-8180-145e08b3d06e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1XKxbSDJArnJMWwxBm2KGgAzfhU" />
+  <component name="ProjectId" id="1XKxXnGQH15xMz0OdgF6suVF9DG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projet-monster" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,13 +39,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d2d8f9c-8bce-4ccd-9ad3-00ac5dd6495c" name="Default Changelist" comment="" />
-      <created>1580808658752</created>
+      <changelist id="45f3b544-9814-4ebc-8180-145e08b3d06e" name="Default Changelist" comment="" />
+      <created>1580808629739</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580808658752</updated>
-      <workItem from="1580808660648" duration="335000" />
-      <workItem from="1580808997169" duration="48000" />
+      <updated>1580808629739</updated>
+      <workItem from="1580808631627" duration="33000" />
+      <workItem from="1580808724147" duration="15000" />
     </task>
     <servers />
   </component>
@@ -57,9 +53,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1580808989851">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1580808737760">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580808989851" />
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1580808737760" />
   </component>
 </project>
