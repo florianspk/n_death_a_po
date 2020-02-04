@@ -1,4 +1,4 @@
-(function () {
+
 
     let name ;
     let life ;
@@ -15,6 +15,3 @@
         money =m;
         awake =a;
     }
-
-
-});
