@@ -15,8 +15,37 @@ export function start(){
 
 
 window.addEventListener("load", () => {
-
     bshow.addEventListener("click", (event) => {
         alert(act.get());
+    });
+});
+
+window.addEventListener("load", () => {
+    brun.addEventListener("click", (event) => {
+        act.run();
+    });
+});
+
+window.addEventListener("load", () => {
+    bfight.addEventListener("click", (event) => {
+        act.fight();
+    });
+});
+
+window.addEventListener("load", () => {
+        bwork.addEventListener("click", (event) => {
+        act.work();
+    });
+});
+
+window.addEventListener("load", () => {
+    beat.addEventListener("click", (event) => {
+       act.eat();
+    });
+});
+
+window.addEventListener("load", () => {
+    bsleep.addEventListener("click", (event) => {
+        act.sleep();
     });
 });
