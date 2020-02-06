@@ -14,39 +14,41 @@
     }
 
     export function get() {
-        return awake;
+    let tab = [name, life, money, awake];
+    return tab;
     }
 
     export function run(){
-        if(awake === false || life > 2) {
+        if(awake == false && life > 0) {
             life = life - 1;
         }
     }
 
     export function fight(){
-        if(awake === false || life > 2) {
+        if(awake === false && life > 3) {
             life = life - 3;
         }
     }
 
     export function work(){
-        if(awake === false || life > 2) {
+        if(awake === false && life > 0) {
             life = life - 1;
             money = money + 2;
         }
     }
 
     export function eat(){
-        if(awake === false || life > 2 || money > 4) {
+        if(awake === false && life > 0 && money > 3) {
             money = money - 3;
             life = life + 2;
         }
     }
 
 
-
     export function sleep(){
 
         awake = true;
-        setTimeout(() => awake = false, 10000);
+        setTimeout(() => {
+            awake = false;
+            life++; }, 10000);
     }
