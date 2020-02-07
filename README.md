@@ -10,7 +10,7 @@ L'objectif du td est de programmer un simulateur de la vie d'un pauvre monstre q
     * Un module gérant les affichages sur l'interface: log des actions, affichage de l'état,
     * Un module  important les 2 précédents, et gérant l'exécution de l'application: initialisation, gestion des boutons.
     * Le module principal, qui importe le précédant et lance l'exécution de l'application.
-###Etape 1: 
+### Etape 1: 
 - Créer le module actions qui contient l'état et les actions que peut réaliser le monstre: 
     - Des variables privées décrivant l'état du monstre: 
         - name: le nom du monstre
@@ -25,7 +25,7 @@ L'objectif du td est de programmer un simulateur de la vie d'un pauvre monstre q
  - En appelant l'action init; 
  - Déclare un  handler de l'événement click sur le bouton "showme" (#b6); ce handler affiche l'état courant du monstre en utilisant une alerte.
  - Créer le module principal, qui importe app et déclare cette fonction "start" comme handler de l'événement window.onload afin de lancer l'application. Tester.
-###Etape 2:
+### Etape 2:
 - Créer le module ui, qui exporte  la fonction log(message) qui permet d'afficher un message dans la boite #actionbox de l'interface. 
 Elle le fait en insérant un nouveau <p> comme premier fils, afin de décaler les anciens messages vers le bas.
 - Dans le même module, déclarer la fonction displayStatus() qui permet d'afficher l'étatdu monstre reçu en paramètre dans la liste .Status de l'interface.
