@@ -41,7 +41,7 @@ Elle le fait en insérant un nouveau <p> comme premier fils, afin de décaler le
 Vérifiez que lorsque le montre dort, il ne peut pas courir, manger ni combattre. Le monstre gagne 1 point de vie à son réveil. 
 Bien sur, l'état affiché du monstre doit être affiché lorsqu'il s'endort et lorsqu'il se réveille.
 
-###Etape 4: 
+### Etape 4: 
 - Construire une fonction qui s'exécute toute les 12s (voir pour cela la fonction setInterval dans la référence js) et qui retire 1 point de vie au monstre puis exécute unede ses actions au hasard (voir Math.random()).
 - Programmer et associer les actions correspondant aux boutons kill (pour tuer le monstre) et newlife (pour lui redonner une  nouvelle vie).
 - Modifier la fonction showStatus pour ajouter un effet visuel lié à l'état du monstre: 
